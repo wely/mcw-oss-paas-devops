@@ -24,7 +24,7 @@ export default class Profile extends Component {
         <div class="panel panel-default">
           <div class="panel-heading">
             <h3 class="panel-title">
-              {this.state.user.firstName + ' ' + this.state.user.lastName}
+              {this.state.user.firstName + ' ' + this.state.user.lastName} :)
             </h3>
           </div>
           <div class="panel-body">
