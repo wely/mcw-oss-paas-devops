@@ -2,7 +2,7 @@
 	OrdersCosmosTrigger function code
 	* Trigger: Azure Cosmos DB on newOrders into the orders collection.
 	* Output: Azure Storage Queue - orderqueue
-	
+	 
 	Triggers whenever a document in the orders collection is inserted or updated.
 	By checking processed on the document, we only send unprocessed orders to the queue,
 	so when the next Function updates the processed value to true, it won't be requeued.
